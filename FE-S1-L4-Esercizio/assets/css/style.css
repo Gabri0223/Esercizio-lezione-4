@@ -5,17 +5,55 @@ body{
     font-family: "Roboto Condensed", serif;
 }
 /* HEADER */
-#start{
-    align-items: center;
-    width: 20%;
-    height: 20%;
+header {
+    text-align: center;
 }
+
+#start{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: bold;
+    color:white;
+    background-color:rgb(37, 143, 196);
+}
+
 
 #start img{
     width: 100%;
 }
-/* MAIN */
 
+#start span{
+    display: block;
+    font-size: 0.8em;
+}
+
+/* MAIN */
+#contenitore{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.contenuto{
+    padding:15px;
+}
+.grande{
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.grigio{
+    font-size: 0.6em;
+    color: gray;
+}
+
+.violetto{
+    color: blueviolet;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
